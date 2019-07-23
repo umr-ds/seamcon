@@ -9,7 +9,7 @@ subtitle: Learning Wi-Fi Connection Loss Predictions for Seamless Vertical Hando
   <form method="get" action="" style="display: inline;">
     <button class="btn btn-success btn-lg get-started-btn" type="submit">Paper</button>
   </form>
-  <form method="get" action="" style="display: inline;">
+  <form method="get" action="hoechst2019learning.bib" style="display: inline;">
     <button class="btn btn-success btn-lg get-started-btn" type="submit">BibTex</button>
   </form>
   <form method="get" action="" style="display: inline;">
