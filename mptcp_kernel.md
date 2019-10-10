@@ -21,6 +21,14 @@ make hammerhead_defconfig
 make -j8
 ```
 
+**Note:** If you are using are more recent version of perl, you may encounter the following error:
+
+```
+Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kernel/timeconst.pl line 373.
+```
+
+If this happens, you have remove the `if`-statement in line `373` in the file `kerneö/timeconst.pl`.
+
 This will take a while, just be patient.
 
 After the compilation is done, you have to make a bootable image:
