@@ -27,7 +27,7 @@ make -j8
 Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kernel/timeconst.pl line 373.
 ```
 
-If this happens, you have remove the `if`-statement in line `373` in the file `kerneö/timeconst.pl`.
+If this happens, you have remove the `if`-statement in line `373` in the file `kernel/timeconst.pl`.
 
 This will take a while, just be patient.
 
