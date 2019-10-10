@@ -15,7 +15,8 @@ git clone https://github.com/yinquan529/platform-prebuilts-gcc-linux-x86-arm-arm
 Now you are ready to build the kernel. First, set some environment variables and make the default config. Then you are ready to go:
 
 ```
-export ARCH=arm SUBARCH=arm CROSS_COMPILE=<PATH_TO_CROSSCOMPILATION_TOOLCHAIN>/bin/arm-eabi-
+cd mptcp_nexus5
+export ARCH=arm SUBARCH=arm CROSS_COMPILE=../platform-prebuilts-gcc-linux-x86-arm-arm-eabi-4.7/bin/arm-eabi-
 make hammerhead_defconfig
 make -j8
 ```
