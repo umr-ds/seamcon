@@ -46,4 +46,6 @@ adb reboot bootloader
 sudo fastboot boot -c "console=ttyHSL0,115200,n8 androidboot.hardware=hammerhead user_debug=31 maxcpus=2 msm_watchdog_v2.enable=1" mptcp_boot.img
 ```
 
-That's it. You have build and deployed a MPTCP kernel for Android. Please note, that **the change is only in-memory. After rebooting, the stock kernel will be used again and you have to reboot the MPTCP kernel**. Proceed with the [next step of the instructions.](video_stream)
+That's it. You have build and deployed a MPTCP kernel for Android. Please note, that **the change is only in-memory. After rebooting, the stock kernel will be used again and you have to reboot the MPTCP kernel**. If you want to flash the kernel permanently, use the follwing command: `fastboot flash boot mptcp_boot.img`.
+
+Proceed with the [next step of the instructions.](video_stream)
