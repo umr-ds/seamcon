@@ -8,17 +8,21 @@ Here is a complete list of links of all files, scripts and repos used in this wo
 # Data
 
 * [Collected Userdata](https://ds.mathematik.uni-marburg.de/seamcon/seamcon_userdata.tar.gz)
-* Paper experiment results
-    * [Predictions](https://ds.mathematik.uni-marburg.de/seamcon/seamcon_predictions_paper.tar.gz)
+* Experimental Evaluation Results
+    * [Sensor Readings and Predictions](https://ds.mathematik.uni-marburg.de/seamcon/seamcon_predictions_paper.tar.gz)
     * [DASH Statistics](https://ds.mathematik.uni-marburg.de/seamcon/seamcon_dashsstats_paper.tar.gz)
-    * [TCP Dumps](https://ds.mathematik.uni-marburg.de/seamcon/seamcon_tcpdump_paper.tar.gz)
-* [Paper]()
-    * [BibTex]()
-* [App]()
+    * [TCP Dumps of Streams](https://ds.mathematik.uni-marburg.de/seamcon/seamcon_tcpdump_paper.tar.gz)
+* [Android Application](https://github.com/umr-ds/seamcon-SeamlessDemo/releases)
 
 # Repositories
 
-* [ML Jupyter Backend](https://github.com/umr-ds/seamcon-learning-wifi-loss)
-* [Seamless Demo App](https://github.com/umr-ds/seamcon-SeamlessDemo)
-* [MPTCP Control App](https://github.com/umr-ds/seamcon-mptcpcontol)
+* [Machine Learning Jupyter Backend](https://github.com/umr-ds/seamcon-learning-wifi-loss)
 * [Video Stream Backend](https://github.com/umr-ds/seamcon-videostream)
+* [Seamless Demo Application](https://github.com/umr-ds/seamcon-SeamlessDemo)
+* [MPTCP Control Application](https://github.com/umr-ds/seamcon-mptcpcontol)
+
+# Ressources
+
+* [LCN'19 Paper](./img/hoechst2019learning.pdf)
+	* [Slides](./img/hoechst2017learning-slides.pdf)
+	* [BibTex](./img/hoechst2019learning.bib)
