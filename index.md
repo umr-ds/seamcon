@@ -7,10 +7,13 @@ subtitle: Learning Wi-Fi Connection Loss Predictions for Seamless Vertical Hando
 <div class="main-explain-area jumbotron">
   <p style="text-align: justify;">We predict the Wi-Fi connection loss <strong>before</strong> the connection breaks to perform <strong>Seamless Vertical Handovers</strong> between Wi-Fi and cellular networks. Our approach relies on data from <strong>multiple smartphone sensors</strong> like Wi-Fi RSSI, acceleration, compass, step counter or air pressure to predict the connection loss. The app uses <strong>Multipath TCP</strong> to dynamically switch between different wireless connectivity modes.</p>
   <a href="img/hoechst2019learning.pdf">
-    <button class="btn btn-success btn-lg get-started-btn" type="submit">Paper PDF</button>
+    <button class="btn btn-success btn-lg get-started-btn" type="submit">LCN'19 Paper</button>
   </a>
   <a href="hoechst2019learning.bib">
     <button class="btn btn-success btn-lg get-started-btn" type="submit">BibTex</button>
+  </a>
+  <a href="img/hoechst2019learning-slides.pdf">
+    <button class="btn btn-success btn-lg get-started-btn" type="submit">Slides</button>
   </a>
   <a href="https://github.com/umr-ds/seamcon-SeamlessDemo/releases">
     <button class="btn btn-success btn-lg get-started-btn pull-right" type="submit">Demo App</button>

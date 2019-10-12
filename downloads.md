@@ -23,6 +23,6 @@ Here is a complete list of links of all files, scripts and repos used in this wo
 
 # Ressources
 
-* [LCN'19 Paper](./img/hoechst2019learning.pdf)
-	* [Slides](./img/hoechst2017learning-slides.pdf)
-	* [BibTex](./img/hoechst2019learning.bib)
+* [LCN'19 Paper](img/hoechst2019learning.pdf)
+	* Slides: [PDF](img/hoechst2019learning-slides.pdf) - [PPTX](img/hoechst2019learning-slides.pptx)
+	* [BibTex](hoechst2019learning.bib)
