@@ -6,7 +6,7 @@ subtitle: Learning Wi-Fi Connection Loss Predictions for Seamless Vertical Hando
 
 <div class="main-explain-area jumbotron">
   <p style="text-align: justify;">We predict the Wi-Fi connection loss <strong>before</strong> the connection breaks to perform <strong>Seamless Vertical Handovers</strong> between Wi-Fi and cellular networks. Our approach relies on data from <strong>multiple smartphone sensors</strong> like Wi-Fi RSSI, acceleration, compass, step counter or air pressure to predict the connection loss. The app uses <strong>Multipath TCP</strong> to dynamically switch between different wireless connectivity modes.</p>
-  <a href="">
+  <a href="img/hoechst2019learning.pdf">
     <button class="btn btn-success btn-lg get-started-btn" type="submit">Paper PDF</button>
   </a>
   <a href="hoechst2019learning.bib">
@@ -32,7 +32,7 @@ Finally, the application needs to reestablish the connection, which can lead to 
 We use various sensor available in nowadays smartphones to predict the Wi-Fi connection loss and switch from Wi-Fi to the cellular network using MPTCP.
 
 <figure class="figure">
-  <img src="img/seamless1_scen1_overview.pdf" class="figure-img img-fluid" alt="Overview Sensors and Prediction" width="100%">
+  <img src="img/seamless1_scen1_overview.pdf.svg" class="figure-img img-fluid" alt="Overview Sensors and Prediction" width="100%">
   <figcaption class="figure-caption text-right"><br />Figure: Overview of some Sensors and the resulting Prediction</figcaption>
 </figure>
 
@@ -136,7 +136,7 @@ You also can use the `main.ipynb` notebook to learn and evaluate your own experi
 Our evaluation shows, that we can improve the Quality of Experience for users significantly, as can be seen in the figure below.
 
 <figure class="figure">
-  <img src="img/qoe_mos.pdf" class="figure-img img-fluid" alt="Quality of Experience Evaluation" width="100%">
+  <img src="img/qoe_mos.pdf.svg" class="figure-img img-fluid" alt="Quality of Experience Evaluation" width="100%">
   <figcaption class="figure-caption text-right"><br />Figure: Quality of Experience Mean Opinion Score Comparison (higher is better)</figcaption>
 </figure>
 
@@ -145,17 +145,17 @@ The following bandwidth figures show clearly that our approach ommits the gap be
 <div class="container" style="width: 100%;">
   <div class="theme-table-image col-sm-6">
     <figure class="figure">
-      <img src="img/stock4_scen1_5.pdf" class="figure-img img-fluid" alt="Bandwidth Stock Android" width="100%">
+      <img src="img/stock4_scen1_5.pdf.svg" class="figure-img img-fluid" alt="Bandwidth Stock Android" width="100%">
       <figcaption class="figure-caption text-left">Figure: Bandwidth, Bufferlevel and Quality for Stock Android</figcaption>
     </figure>
   </div>
 
   <div class="theme-table-image col-sm-6">
     <figure class="figure">
-      <img src="img/seamless1_scen1_4.pdf" class="figure-img img-fluid" alt="Bandwidth Our Approach" width="100%">
+      <img src="img/seamless1_scen1_4.pdf.svg" class="figure-img img-fluid" alt="Bandwidth Our Approach" width="100%">
       <figcaption class="figure-caption text-right">Figure: Bandwidth, Bufferlevel and Quality using our approach</figcaption>
     </figure>
   </div>
 </div>
 
-# That's it. Enjoy the better user experience we provide with our Wi-Fi loss prediction approach.
+### That's it. Enjoy the better user experience we provide with our Wi-Fi loss prediction approach.
