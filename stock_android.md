@@ -17,7 +17,7 @@ sudo ./flash-all.sh
 This takes a while. After Android is booted up, you have to configure it (set language, etc.).
 Of course, we need root. Again, pretty simple. Just copy SuperSU to the SD card of the device, flash twrp and install SuperSU. But before that, you have to enable developer settings.
 On the phone, go to **Settings -> About phone -> Tap 7x on Build number**. Then, go to **Settings -> Developer options -> enable USB debugging**.
-After that, download [SuperSU](http://www.supersuroot.net/SuperSU-v2.79-201612051815.zip) and the [TWRP image](https://dl.twrp.me/hammerhead/twrp-3.2.2-0-hammerhead.img).
+After that, download [SuperSU](https://supersuzip.com/download/SuperSU-v2.82-201705271822.zip) and the [TWRP image](https://dl.twrp.me/hammerhead/twrp-3.2.2-0-hammerhead.img).
 
 When done, run the following commands (replace the names of SuperSU.zip and twrp.img with the downloaded ones):
 

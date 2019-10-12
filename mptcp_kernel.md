@@ -15,10 +15,19 @@ git clone https://github.com/yinquan529/platform-prebuilts-gcc-linux-x86-arm-arm
 Now you are ready to build the kernel. First, set some environment variables and make the default config. Then you are ready to go:
 
 ```
-export ARCH=arm SUBARCH=arm CROSS_COMPILE=<PATH_TO_CROSSCOMPILATION_TOOLCHAIN>/bin/arm-eabi-
+cd mptcp_nexus5
+export ARCH=arm SUBARCH=arm CROSS_COMPILE=../platform-prebuilts-gcc-linux-x86-arm-arm-eabi-4.7/bin/arm-eabi-
 make hammerhead_defconfig
 make -j8
 ```
+
+**Note:** If you are using are more recent version of perl, you may encounter the following error:
+
+```
+Can't use 'defined(@array)' (Maybe you should just omit the defined()?) at kernel/timeconst.pl line 373.
+```
+
+If this happens, you have remove the `if`-statement in line `373` in the file `kernel/timeconst.pl`.
 
 This will take a while, just be patient.
 
@@ -37,4 +46,6 @@ adb reboot bootloader
 sudo fastboot boot -c "console=ttyHSL0,115200,n8 androidboot.hardware=hammerhead user_debug=31 maxcpus=2 msm_watchdog_v2.enable=1" mptcp_boot.img
 ```
 
-That's it. You have build and deployed a MPTCP kernel for Android. Please note, that **the change is only in-memory. After rebooting, the stock kernel will be used again and you have to reboot the MPTCP kernel**. Proceed with the [next step of the instructions.](video_stream)
+That's it. You have build and deployed a MPTCP kernel for Android. Please note, that **the change is only in-memory. After rebooting, the stock kernel will be used again and you have to reboot the MPTCP kernel**. If you want to flash the kernel permanently, use the follwing command: `fastboot flash boot mptcp_boot.img`.
+
+Proceed with the [next step of the instructions.](video_stream)
