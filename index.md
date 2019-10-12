@@ -39,6 +39,10 @@ We use various sensor available in nowadays smartphones to predict the Wi-Fi con
 The above figure shows sensor data and prediction of a run performed for the DASH experiments presented [below](index#results).
 The first positive loss prediction $$p_1$$ happens at $$t=143$$, whereas the $$loss$$ event is at $$t=163$$. At a first glance, there is no obvious correlation between the sensor readings and the Wi-Fi loss event. But as will be explained later, such events can be predicted using sensors.
 
+<div style="position: relative; padding-bottom: 56.25%; width: 100%;">
+	<iframe style="position: absolute; width: 100%; height: 100%; " src="https://www.youtube.com/embed/E0CFLk82s6s" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 # Getting Started
 We have developed an app, which uses MPTCP and our prediction to establish a second subflow, before the Wi-Fi connection breaks. This is used to improve the Quality of Experience of a sample video, which is also part of the app.
 You have two options to get started:
