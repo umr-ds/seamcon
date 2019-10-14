@@ -49,9 +49,27 @@ Multi-layer Perceptron Classifier | 1 Layer, 100 Neurons (NN1)<br />3 Layers, 10
 Data from 5 volunteer testers were collected for this work. Thus, we tried two different Training and Test sets. First, all data was combined and than split randomly in 70:30 relation with 70% for training the Neural Network and 30% for testing. In the second approach the data was split per user, resulting in a model that was trained on a specific user.
 
 # Results
+In this section the raw results are presented. First we look at the Random Data Split to validate the effectiveness of our approach. A baseline evaluation using a Random Forest is presented, comparing an RSSI-only approach to the Reduced and Full Feature Vectors.
+
+## Random Data Split
+
+### Random Forest
+
 {% include random-forest.md %}
+
+### Neural Network
+
 {% include random-nn.md %}
+
+## User-based Data Split
+
+To prove how well the trained model can generalize across users, the data is split up based on users, where the user evaluated with is not used for comparison.
+
+### Neural Network
+
 {% include user-nn-reduced.md %}
+
+For more data on the evaluated models, please look in the available notebooks. Learned models are also available there.
 
 ## Notebooks
 Alls Jupyter Notebooks can be downloaded from our [GitHub repo](https://github.com/umr-ds/seamcon-learning-wifi-loss). We provide a `Dockerfile` so that you can start the Docker container and see all steps done from preparing the data until the learning evaluation directly in a Jupyter Lab. Just check out the mentioned repo, build the container and start it. Please provide the right parameters in the commands below:

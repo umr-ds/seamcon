@@ -1,27 +1,4 @@
-## Random Neural Network
-
-### RSSI only
-```
-NN1
-             precision    recall  f1-score   support
-       loss       0.99      0.90      0.94     60278
-    no loss       0.99      1.00      0.99    574347
-avg / total       0.99      0.99      0.99    634625
-    
-NN2
-             precision    recall  f1-score   support
-       loss       0.97      0.93      0.95     60278
-    no loss       0.99      1.00      0.99    574347
-avg / total       0.99      0.99      0.99    634625
-    
-NN3
-             precision    recall  f1-score   support
-       loss       0.98      0.91      0.95     60278
-    no loss       0.99      1.00      0.99    574347
-avg / total       0.99      0.99      0.99    634625
-```
-    
-### Reduced Feature Vector
+#### *Reduced Feature Vector*
 ```
 NN1
              precision    recall  f1-score   support
@@ -42,7 +19,7 @@ NN3
 avg / total       0.99      0.99      0.99    477276
 ```
     
-### Full Feature Vector
+#### *Full Feature Vector*
 ```
 NN1
              precision    recall  f1-score   support
